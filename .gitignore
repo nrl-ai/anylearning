@@ -4,3 +4,6 @@
 *.pyd
 __pycache__
 *.egg-info
+*.pt
+/notebooks/workspace
+/notebooks/runs

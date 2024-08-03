@@ -224,11 +224,11 @@ class AnyLabeling2YOLO(object):
         yaml_content = ""
 
         if os.path.exists(os.path.join(output_dir, "train/")):
-            yaml_content += "train: %s\n" % os.path.join(output_dir, "train/")
+            yaml_content += "train: %s\n" % "train/"
         if os.path.exists(os.path.join(output_dir, "val/")):
-            yaml_content += "val: %s\n" % os.path.join(output_dir, "val/")
+            yaml_content += "val: %s\n" % "val/"
         if os.path.exists(os.path.join(output_dir, "test/")):
-            yaml_content += "test: %s\n" % os.path.join(output_dir, "test/")
+            yaml_content += "test: %s\n" % "test/"
 
         yaml_content += "nc: %i\n" % len(self._label_id_map)
 
