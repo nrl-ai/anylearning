@@ -1,0 +1,6 @@
+/data
+!/data/.gitkeep
+*.pyc
+*.pyd
+__pycache__
+*.egg-info
