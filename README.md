@@ -10,10 +10,4 @@ pip install anylearning
 
 ## Usage
 
-```python
-from anylearning import AnyLearning
-
-model = AnyLearning()
-
-model.train()
-```
+- Train object detection model with YOLOv10: [https://github.com/vietanhdev/anylearning/blob/main/notebooks/yolov10-object-detection.ipynb](https://github.com/vietanhdev/anylearning/blob/main/notebooks/yolov10-object-detection.ipynb).
