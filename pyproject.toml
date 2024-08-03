@@ -20,7 +20,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "anylearning"
-version = "0.0.1"
+version = "0.0.2"
 description = "Train your own AI models with ease"
 authors = [
     {name = "Viet Anh Nguyen", email = "vietanh.dev@gmail.com"},
