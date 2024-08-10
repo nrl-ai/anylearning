@@ -10,3 +10,4 @@ __pycache__
 /dist
 /build
 *-checkpoint.ipynb
+.DS_Store
