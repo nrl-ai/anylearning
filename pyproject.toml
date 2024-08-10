@@ -43,8 +43,8 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/vietanhdev/anylearning"
-"Bug Tracker" = "https://github.com/vietanhdev/anylearning/issues"
+"Homepage" = "https://github.com/nrl-ai/anylearning"
+"Bug Tracker" = "https://github.com/nrl-ai/anylearning/issues"
 
 [project.optional-dependencies]
 dev = ["flake8", "isort", "black", "pre-commit"]
